@@ -1,0 +1,8 @@
+name = "demo-fmt"
+compatibility_date = "2026-06-10"
+compatibility_flags = ["nodejs_compat"]
+main = "dist/server/server.js"
+assets = { directory = "dist/client" }
+
+[vars]
+VITE_GROQ_API_KEY = ""
